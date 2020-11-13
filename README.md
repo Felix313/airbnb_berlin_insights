@@ -1,40 +1,55 @@
-
 ### Table of Contents
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
+3. [File Descriptions](#descriptions)
 4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+5. [Licensing, Authors, and Acknowledgments](#licensing)
 
-## Installation <a name="installation"></a>
+## Installation<a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+The Jupyter Notebooks present in this repository were created using Python 3 (any Python 3.* should work)
+
+Furthermore, for **Data Processing**, the following packages were used:
+
+- Pandas and Geopandas
+- Numpy
+
+For **Visualization**:
+
+- Matplotlib
+- Seaborn
+- Geoplot
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+Apart from the controverse impacts on housing markets, a landlord's main goal will often be to maxamize revenue made from the space they own.
+Leaving legal concernce aside, this project intents to estimate the average revenue one can expect from hosting a space on Airbnb and compare it to the average rent.
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+To keep things simple, the following framework / assumptions were made:
+-**Revenue will be compared on district basis**
+-**
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+1. **What's the average price per (grouped) neighborhood in Berlin?**
+2. **What's the occupancy rate of active airbnb listings in Berlin?**
+3. **What's the average revenue of active airbnb listings in Berlin?**
+4. **How does this compare to the average revenue from normal rent in those distircts?**
+5. **How does Superhost status effect listing's revenue?**
 
+## File Descriptions<a name="descriptions"></a>
 
-## File Descriptions <a name="files"></a>
+There are two different Jupyter Notebooks in this repository. They are both explicitly named for people to understand what they do. 
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+- **Airbnb - Data Processing and Imputation**: Preprocessing of the boston airbnb data for 2017 is computed. Anything ranging from data gathering and assessing to cleaning and imputing missing values. 
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+- **Airbnb - Data Analysis**: Analysis of the previous preprocessed data is done and many visualizations are computed to help answer the questions in the motivation. This notebook contains some light processing, modelling, visualising and detailed explanations and conclusions about the data,
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main conclusions and results can be found in the notebook *Airbnb - Data Analysis*. But if you wish for a cleaner and better written results you can check my blog post on Medium [here](https://medium.com/@miguel.a.r.diass/start-hosting-in-boston-like-a-boss-d8c9849b163e).
 
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+## Licensing, Authors, and Acknowledgments<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+Shoutout to Airbnb for providing a great dataset for analysis. The licensing for this dataset is available [here](https://www.kaggle.com/airbnb/boston). Thank you for your interest in my analysis and feel free to use my code for anything you'd like. 
 
+Cheers.
