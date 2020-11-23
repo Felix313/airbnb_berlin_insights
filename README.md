@@ -46,7 +46,7 @@ But if you wish for a cleaner and better written results you can check my blog p
 
 ## Licensing, Authors, and Acknowledgments<a name="licensing"></a>
 
-Shout-out to http://insideairbnb.com/ for providing a great dataset for this analysis! 
+Shout-out to http://insideairbnb.com/ for providing a great dataset for this analysis under a Creative Commons CC0 1.0 Universal (CC0 1.0) "Public Domain Dedication" license. 
 
 Thank you for your interest in my analysis and feel free to use my code for anything you'd like. 
 
