@@ -35,16 +35,19 @@ Qustions to answer:
 
 ## File Descriptions<a name="descriptions"></a>
 
-There are 2 notebooks available here to showcase work related to the above questions. 
-Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the project motivation. 
+There are 2 notebooks available here related to answering the above questions. 
+The data preparation notebook focuses on preparing the data for analysis, which in turn is kept in the data analysis notebook.
 Markdown cells were used to assist in walking through the thought process for individual steps.
 
 ## Results<a name="results"></a>
 
-The main conclusions and results can be found in the notebook *Airbnb - Data Analysis*. But if you wish for a cleaner and better written results you can check my blog post on Medium [here](https://medium.com/@miguel.a.r.diass/start-hosting-in-boston-like-a-boss-d8c9849b163e).
+The main conclusions and results can be found in the *Data Analysis* notebook. 
+But if you wish for a cleaner and better written results you can check my blog post on Medium [here](https://medium.com/p/5d78d828a69f/edit).
 
 ## Licensing, Authors, and Acknowledgments<a name="licensing"></a>
 
-Shoutout to Airbnb for providing a great dataset for analysis. The licensing for this dataset is available [here](https://www.kaggle.com/airbnb/boston). Thank you for your interest in my analysis and feel free to use my code for anything you'd like. 
+Shout-out to http://insideairbnb.com/ for providing a great dataset for this analysis! 
 
-Cheers.
+Thank you for your interest in my analysis and feel free to use my code for anything you'd like. 
+
+Stay curious!
