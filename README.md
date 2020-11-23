@@ -10,39 +10,34 @@
 
 The Jupyter Notebooks present in this repository were created using Python 3 (any Python 3.* should work)
 
-Furthermore, for **Data Processing**, the following packages were used:
+The following packages were used:
 
 - Pandas and Geopandas
 - Numpy
-
-For **Visualization**:
-
 - Matplotlib
 - Seaborn
-- Geoplot
 
 ## Project Motivation<a name="motivation"></a>
 
-Apart from the controverse impacts on housing markets, a landlord's main goal will often be to maxamize revenue made from the space they own.
+Apart from the controverse impacts on housing markets, a landlord's main goal will often be to maximize revenue made from the space they own.
 Leaving legal concernce aside, this project intents to estimate the average revenue one can expect from hosting a space on Airbnb and compare it to the average rent.
 
-To keep things simple, the following framework / assumptions were made:
--**Revenue will be compared on district basis**
--**
+To keep things simple, the following framework is set:
+-**Revenue will be compared on neighborhood basis and for entire homes/apartments**
+-**Occupancy will be estimated using reviews and minimum days a customer has to stay**
 
+Qustions to answer:
 1. **What's the average price per (grouped) neighborhood in Berlin?**
-2. **What's the occupancy rate of active airbnb listings in Berlin?**
-3. **What's the average revenue of active airbnb listings in Berlin?**
-4. **How does this compare to the average revenue from normal rent in those distircts?**
-5. **How does Superhost status effect listing's revenue?**
+2. **What's the occupancy rate of airbnb listings in Berlin?**
+3. **What's the average revenue of airbnb listings in Berlin?**
+4. **Does being a Superhost effect the average revenue?**
+5. **How does this compare to the average revenue from normal rent in those neighbourhoods?**
 
 ## File Descriptions<a name="descriptions"></a>
 
-There are two different Jupyter Notebooks in this repository. They are both explicitly named for people to understand what they do. 
-
-- **Airbnb - Data Processing and Imputation**: Preprocessing of the boston airbnb data for 2017 is computed. Anything ranging from data gathering and assessing to cleaning and imputing missing values. 
-
-- **Airbnb - Data Analysis**: Analysis of the previous preprocessed data is done and many visualizations are computed to help answer the questions in the motivation. This notebook contains some light processing, modelling, visualising and detailed explanations and conclusions about the data,
+There are 2 notebooks available here to showcase work related to the above questions. 
+Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the project motivation. 
+Markdown cells were used to assist in walking through the thought process for individual steps.
 
 ## Results<a name="results"></a>
 
