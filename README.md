@@ -42,7 +42,7 @@ Markdown cells were used to assist in walking through the thought process for in
 ## Results<a name="results"></a>
 
 The main conclusions and results can be found in the *Data Analysis* notebook. 
-But if you wish for a cleaner and better written results you can check my blog post on Medium [here](https://medium.com/p/5d78d828a69f/edit).
+But if you wish for a cleaner and better written results you can check my blog post on Medium [here](https://medium.com/@felix.kinzius/airbnb-or-long-term-lease-in-berlin-5d78d828a69f).
 
 ## Licensing, Authors, and Acknowledgments<a name="licensing"></a>
 
